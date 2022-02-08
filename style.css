@@ -1,0 +1,162 @@
+*{
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+
+
+/**** Header Section ****/
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid#ddd;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.nav-link{
+    font-weight: 500 !important;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item .d-menu{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 250px;
+    padding-left: 0;
+}
+.nav-item .d-menu li{
+    display: block;
+}
+.nav-item .d-menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-item a:hover{
+    color: #6278df !important;
+}
+
+.header-btn{
+    color: ;
+}
+.header-btn:hover{
+    background-color: #6278df;
+    color: #fff !important;
+    box-shadow: 4px 4px 13px #6279df80;
+}
+
+
+
+
+/**** Dropdown Menu Hover ****/
+.d-menu{
+    visibility: hidden;
+    opacity: 0;
+}
+.nav-item:hover .d-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/**** Banner Section ****/
+.banner{
+    background: url(./img/stanfordit-0080-cell-phone_870x330.png) no-repeat center center;
+    background-size: cover;
+    padding: 220px 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 70px;
+}
+.banner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
+.banner-content{
+    color: rgb(255, 255, 255);
+}
+.banner-content h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-content h2{
+    font-size: 55px;
+    margin: 30px 0;
+}
+
+.banner form input{
+    outline: none;
+    padding: 10px 5px;
+    padding-right:50px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.default-btn{
+    color: #fff;
+    padding: 10px 5px;
+    background-color: #6AAD46;
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .4s;
+    outline: none;
+    border: 2px solid transparent;
+}
+.default-btn:hover{
+    background-color: #fff;
+    color: #6278df ;
+    border: 2px solid #6278df;
+    box-shadow: 3px 3px 10px #6279df83;
+}
+
+
+/**** Pricing Table Section ****/
+
+
+
+/**** Team Section  ****/
+
+
+
+/**** Newsletter Section ****/
+
+
+
+/**** About Section ****/
+
+
+
+/**** Testimonial Section ****/
+
+
+
+/**** Contact Section ****/
+
+
+
+/**** Footer Section ****/
+
+
